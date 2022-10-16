@@ -1,0 +1,11 @@
+header {
+    background-color: var(--second-color);
+}
+
+nav {
+    display: flex;
+}
+
+li {
+    text-decoration: none;
+}
