@@ -1,12 +1,14 @@
 
+/* 
+    background-image: url("../../../assets/img/banner.png");
+*/
 
-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+ img {
+  max-width: 100%;
+ 
+} 
+/* 
 div button {
     height: 5.5rem;
     width: 25%;
-}
+} */

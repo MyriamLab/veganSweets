@@ -7,7 +7,8 @@ import { HeaderComponent } from './Components/header/header.component';
 import { WelcomeComponent } from './Components/welcome/welcome.component';
 import { ProductsComponent } from './Components/products/products.component';
 import { MiniCakesComponent } from './Components/products/mini-cakes/mini-cakes.component';
-import { ComplementsComponent } from './Components/products/complements/complements.component';
+import { MuffinsComponent } from './Components/products/muffins/muffins.component';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ComplementsComponent } from './Components/products/complements/compleme
     WelcomeComponent,
     ProductsComponent,
     MiniCakesComponent,
-    ComplementsComponent,
+    MuffinsComponent,
+ 
   ],
   imports: [
     BrowserModule,

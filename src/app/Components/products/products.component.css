@@ -1,15 +1,29 @@
-.containerProducts {
+
+.optionsProducts{
   display: flex;
   width: 100%;
 }
 
-.miniCakes,
-.complements {
+.miniCakesOptions,
+.muffinsOptions
+ {
   width: 50%;
-  background-color: var(--second-color);
 }
 
+/* botones de opciones de productos
+*/
+.btnMiniCakesOptions {
+  background-color: var(--second-color);
+  color: #FFFFFF; 
+} 
+
+.btnMuffinsOptions {
+  background-color: var(--third-color);
+  color: #4D4D4D82;
+}
+
+/* 
 h3 {
   text-align: center;
   font-weight: bold;
-}
+} */
