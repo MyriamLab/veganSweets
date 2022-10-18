@@ -3,9 +3,9 @@
 ****** CLASES GLOBALES ***** 
 */
 * {
-    box-sizing: border-box;
-    margin: 0;
-  }
+  box-sizing: border-box;
+  margin: 0;
+}
 
 html {
   font-size: 10px;
@@ -13,9 +13,9 @@ html {
 
 :root {
   --main-color: #ffeddb;
-  --second-color: #E07390;
-  --third-color: #F9F6F6;
-  --quarter-color: #FFDCD6;
+  --second-color: #e07390;
+  --third-color: #f9f6f6;
+  --quarter-color: #ffdcd6;
 }
 
 :root {
@@ -23,6 +23,10 @@ html {
   --main-size: 4rem;
   --second-size: 3rem;
   --third-size: 2rem;
+}
+
+.flex-row {
+  display: flex;
 }
 
 h1,
@@ -50,15 +54,23 @@ body {
   background-color: var(--main-color);
 }
 
-
 /* COMPONENTE PRODUCTS */
 .margin-container {
-    padding: 4rem 0 4rem 0;
-    margin: 8rem 9.5rem 0 9.5rem;
+  /* padding: 4rem 0 4rem 0; */
+  margin: 8rem 9.5rem 8rem 9.5rem;
 }
 
 /*
-clases para los botones de opciones
+COMPONENTE MINICAKES Y MUFFINS
+CARDS DE LOS PRODUCTOS 
+*/
+
+.marginTop {
+  margin-top: 1.5rem;
+}
+
+/*
+botones de opciones en el componente products
 */
 #btnOptions {
   width: 100%;
@@ -69,8 +81,21 @@ clases para los botones de opciones
   font-size: 2.5rem;
 }
 /*
-clases para los botones de agregar pedido
+ botones de agregar pedido en componente MiniCakes
 */
 
+#btnAddProduct {
+  height: 2rem;
+  width: 17rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  background-color: var(--quarter-color);
+  font-family: var(--main-font);
+  font-weight: 30rem;
+  font-size: 0.8rem;
+}
 
-
+#btnAddProduct:hover {
+  border: var(--second-color) solid 1px;
+}

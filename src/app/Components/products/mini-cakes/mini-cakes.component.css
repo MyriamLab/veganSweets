@@ -1,0 +1,28 @@
+/* 
+CARD PRODUCTS 
+*/
+.cardProduct {
+    width: 21rem;
+    height: 27.5rem;
+}
+
+.amount {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 2rem 0 2rem;
+ 
+}
+
+.amount > span {
+    background-color: var(--third-color);
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.addProduct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

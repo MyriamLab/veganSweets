@@ -1,6 +1,5 @@
 
 .optionsProducts{
-  display: flex;
   width: 100%;
 }
 
@@ -8,8 +7,14 @@
 .muffinsOptions
  {
   width: 50%;
+ 
+
 }
 
+/* ***** */
+.containerListMiniCakes {
+  margin-top: 5rem;
+}
 /* botones de opciones de productos
 */
 .btnMiniCakesOptions {
