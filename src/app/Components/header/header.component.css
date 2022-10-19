@@ -1,11 +1,19 @@
 header {
-    background-color: var(--second-color);
+  background-color: var(--second-color);
+  padding: 1rem;
 }
 
-nav {
-    display: flex;
+nav div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+/* nav {
+    display: flex; 
+
+}*/
 
 li {
-    text-decoration: none;
+  text-decoration: none;
 }

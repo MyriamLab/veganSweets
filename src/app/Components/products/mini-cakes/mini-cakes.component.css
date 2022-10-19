@@ -1,28 +1,36 @@
 /* 
 CARD PRODUCTS 
 */
+
+.containerMiniCake {
+  padding-bottom: 1.75rem;
+}
 .cardProduct {
-    width: 21rem;
-    height: 27.5rem;
+  width: 21rem;
+  height: 100%;
+  padding-bottom: 1.75rem;
+  border: 3px solid #E3E3E3;
 }
 
 .amount {
-    display: flex;
-    justify-content: space-between;
-    margin: 1.5rem 2rem 0 2rem;
- 
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 2rem 0 2rem;
 }
 
 .amount > span {
-    background-color: var(--third-color);
-    width: 2rem;
-    height: 2rem;
-    text-align: center;
-    font-size: 1rem;
+  background-color: var(--third-color);
+  width: 2rem;
+  height: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+  font-family: var(--main-font);
+  font-weight: bold;
 }
 
 .addProduct {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
