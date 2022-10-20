@@ -3,6 +3,8 @@ CARD PRODUCTS
 */
 
 .containerMiniCake {
+  display: flex;
+  flex-wrap: wrap;
   padding-bottom: 1.75rem;
 }
 .cardProduct {

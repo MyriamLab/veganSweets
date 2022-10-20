@@ -7,31 +7,31 @@
         },
 
         {
-            "product" : "Torta de fresas",
+            "product" : "Torta de cranberries",
             "price" : 40,
             "image" : "https://images.pexels.com/photos/1721932/pexels-photo-1721932.jpeg?auto=compress&cs=tinysrgb&w=600"
         },
             
         {
-            "product" : "Torta de fresas",
-            "price" : 40,
+            "product" : "Torta de arándanos",
+            "price" : 45,
             "image" : "https://images.pexels.com/photos/12919294/pexels-photo-12919294.jpeg?auto=compress&cs=tinysrgb&w=600"
         },
 
         {
-            "product" : "Torta de fresas",
-            "price" : 40,
+            "product" : "Torta de lúcuma",
+            "price" : 38,
             "image" : "https://images.pexels.com/photos/1027811/pexels-photo-1027811.jpeg?auto=compress&cs=tinysrgb&w=600"
         },
 
         {
             "product" : "Torta de fresas",
-            "price" : 40,
+            "price" : 42,
             "image" : "https://images.pexels.com/photos/1027811/pexels-photo-1027811.jpeg?auto=compress&cs=tinysrgb&w=600"
         },
 
         {
-            "product" : "Torta de fresas",
+            "product" : "Torta de fresas con crema de vainilla",
             "price" : 40,
             "image" : "https://images.pexels.com/photos/6210852/pexels-photo-6210852.jpeg?auto=compress&cs=tinysrgb&w=600"
         }

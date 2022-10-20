@@ -1,17 +1,17 @@
 <!-- ngFor para los elementos de listProducts.json -->
 <section   class="containerMiniCake ">
 
-  <div class="cardProduct">
+  <div class="cardProduct" *ngFor="let item of listProducts.miniCakes">
     <figure>
-      <img src="https://images.pexels.com/photos/140831/pexels-photo-140831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="imagen de Minicake" width="330px" height="239px">
+      <img src="{{item.image}}" width="330px" height="239px">
     </figure>
 
    <div class="marginTop marginLeft">
-    <span>NOMBRE</span>
+    <span #product>{{item.product}}</span>
    </div>
 
     <div class="marginTop marginLeft">
-      <span>PRECIO</span>
+      <span #price>{{item.price}}</span>
     </div>
     <div class=" marginTop flex-row amount">
       <span>-</span>

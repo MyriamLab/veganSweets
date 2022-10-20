@@ -9,6 +9,7 @@ import { ProductsComponent } from './Components/products/products.component';
 import { MiniCakesComponent } from './Components/products/mini-cakes/mini-cakes.component';
 import { MuffinsComponent } from './Components/products/muffins/muffins.component';
 import { PaymentOrderComponent } from './Components/payment-order/payment-order.component';
+import { HomeComponent } from './Components/home/home.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { PaymentOrderComponent } from './Components/payment-order/payment-order.
     MiniCakesComponent,
     MuffinsComponent,
     PaymentOrderComponent,
+    HomeComponent,
  
   ],
   imports: [
